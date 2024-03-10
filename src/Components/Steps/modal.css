@@ -1,0 +1,173 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+    height: 598px;
+    padding: 24px;
+    border-radius: 12px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px -4px #10182808,
+                0px 20px 24px -4px #10182814;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.modalContainer .title {
+    display: flex;
+    flex-direction: column;
+    width: 772px;
+    height: 76px;
+    gap: 8px;
+}
+
+.firstTitle {
+    width: 772px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #101828; 
+}
+
+.secondTitle {
+    width: 772px;
+    height: 40px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667085; 
+}
+  
+.bodyModal {
+    flex: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 772px;
+    height: 378px;
+    padding: 16px 24px 16px 16px;
+    border-radius: 8px;
+    border: 1px solid #EAECF0; 
+    gap: 4px;
+    background: #FFFFFF; 
+    margin-top: -20px;
+}
+
+  
+.firstBody {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 732px;
+    height: 134px;
+    color: #667085; 
+}
+
+.secondBody {
+    width: 732px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #101828; 
+}
+
+.thirdBody {
+    width: 732px;
+    height: 228px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667085; 
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 772px;
+    height: auto;
+    gap: 12px;
+    margin-left: -200px;
+}
+
+.modalButton {
+    width: 380px;
+    height: 44px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.13);
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancelText {
+    width: 53px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #FFFFFF;
+    color: gray;
+}
+
+.confirmButton {
+    width: 380px;
+    height: 44px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid #7F56D9;
+    background-color: #7F56D9;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.13);
+    gap: 8px;
+}
+
+.confirmText {
+    width: 62px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}

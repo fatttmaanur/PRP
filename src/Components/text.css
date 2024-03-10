@@ -1,0 +1,33 @@
+
+.textAbout {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #101828;
+}
+
+.text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667085;
+}
+.text-footer{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F56D9;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 80px; 
+}

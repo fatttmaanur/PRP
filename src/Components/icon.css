@@ -1,0 +1,230 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    top: 12px;
+    left: 12px;
+    padding: 2px 4px;
+    display: flex; 
+    justify-content: center;
+    color: #7F56D9;
+}
+
+.us-link {
+    display: flex;
+    align-items: center;
+    width: 286px;
+    height: 92px;
+    padding: 12px;
+    border-radius: 8px;
+    gap: 16px;
+    text-decoration: none;
+}
+
+.us-icon {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 24px;
+    background: #F4EBFF;
+}
+
+.us-content {
+    display: flex;
+    flex-direction: column;
+}
+.arrow-icon {
+    width: 9.33px;
+    height: 9.33px;
+    top: 3.33px;
+    left: 3.33px;
+    color: #7F56D9;
+    background-color: #ffffff; 
+    border-radius: 50%; 
+    margin-left: 5px; 
+    margin-bottom: 2px;
+}
+.first-svg{
+    width: 44px;
+    height: 44px;
+    top: 2px;
+    margin-left: -120px; 
+}
+.layers{
+    width: 87.25px;
+    height: 26.71px;
+    top: 14.54px;
+    left: 58.1px;
+    color: #101828;
+    margin-left: 10px;
+}
+.join-div{
+    width: 230.4px;
+    height: 48px;
+    padding: 0px, 42.4px, 0px, 42px ;   
+    display: inline-block
+}
+.second-svg{
+    width: 29px;
+    height: 48px;
+    margin-left: -120px; 
+}
+.sisyphus{
+    width: 126.16px;
+    height: 27.24px;
+    top: 12.38px;
+    left: 41.98px;
+    color: #101828;
+    margin-left: 10px;
+}
+.third-svg{
+    width: 44px;
+    height: 44px;
+    top: 2px;
+    margin-left: -120px; 
+}
+.circooles{
+    width: 125.39px;
+    height: 20.41px;
+    top: 13.87px;
+    left: 57.48px;
+    color: #101828;
+    margin-left: 10px;
+}
+
+.fourth-svg{
+    width: 44px;
+    height: 44px;
+    top: 2px;
+    margin-left: -120px; 
+}
+.catalog{
+    width: 102.11px;
+    height: 26.69px;
+    top: 13.36px;
+    left: 57.49px;
+    color: #101828;
+    margin-left: 10px; 
+}
+
+.fifth-svg{
+    width: 44px;
+    height: 44px;
+    top: 2px;
+    margin-left: -120px;
+}
+.quotient{
+    width: 129.45px;
+    height: 26.54px;
+    top: 11.96px;
+    left: 57.09px;
+    color: #101828;
+    margin-left: 10px;
+}
+.join-text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #667085;
+    width: 1280px;
+    height: 24px;
+    margin-left:-40px;
+    margin-bottom: 30px;
+}
+.icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.first-div{
+    width: 1280px;
+    height: 312px;
+    top: 96px;
+    left: 80px;
+    margin-right: 32px; 
+    display: inline-block;
+}
+.body-container{
+    width: 1280px;
+    height: 48px;
+    margin-right: 32px;
+    display: inline-block;
+}
+.mail-icon {
+    width: 48px;
+    height: 48px;
+    padding: 12px; 
+    border-radius: 24px; 
+    border: 8px solid #F9F5FF;
+    background: #F4EBFF; 
+    color: #7367F0; 
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+
+}
+.mailicon-inner {
+    width: 24px;
+    height: 24px; 
+    padding: 4px 2px; 
+    margin-bottom: 30px;
+    margin-top: -8px;
+    margin-left: -7px;
+}
+.circle-icon {
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    margin-left: auto;
+}
+.play-icon {
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+    border: 2px solid #344054; 
+    background-color: transparent; 
+    border-radius: 50%;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center; 
+}
+.check-icon {
+    width: 14px;
+    height: 14px;
+    padding: 3.5px 2.33px 4.08px 2.33px;
+}
+.flag-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.arrowDown-icon {
+    width: 16px;
+    height: 16px;
+    color: gray;
+    margin-left: -10px;
+}
+.down-icon {
+    width: 16px;
+    height: 16px;
+    color: gray;
+    margin-left: 5px;
+}
+.arrow-left {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle; 
+    color: gray;
+    margin-bottom: 2px;
+}
+.success-icon {
+    color: white!important;
+    width: 32.9px;
+    height: 25.3px;
+    top: 43px;
+    left: 40px;
+}
